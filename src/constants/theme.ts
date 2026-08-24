@@ -318,7 +318,7 @@ export function severityColor(
  * is ΔE 3.5 (draft/paid under tritanopia, light) — far under the 15 floor, which
  * means these four are NOT reliably distinguishable by hue. Every status badge
  * therefore carries its text label, exactly as severity chips do. Never render one
- * as a bare dot. Run `node scratchpad/validate-status.mjs`.
+ * as a bare dot. Run `node tools/validate-status.mjs`.
  */
 export function statusColor(
   theme: Theme,

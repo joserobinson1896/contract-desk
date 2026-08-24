@@ -334,7 +334,7 @@ toggle cannot say "match my device", which is what an OS night-mode schedule dri
 toggle in the nav bar and the full control in Settings.
 
 Colours are measured, not picked — CIEDE2000 with Viénot–Brettel–Mollon dichromat simulation
-across normal, protan, deutan and tritan vision. Run `node scratchpad/validate-palette.mjs`.
+across normal, protan, deutan and tritan vision. Run `node tools/validate-palette.mjs`.
 Severity is **never** encoded by colour alone: `warning` vs `danger` collapses to ΔE 3.9 under
 protanopia, which is why every status carries a text label.
 

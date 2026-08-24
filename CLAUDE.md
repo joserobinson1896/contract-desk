@@ -205,7 +205,7 @@ ground and the edge disappears, so dark adds a hairline — and the home card's 
 block, which is ink on white, steps up to `inkRaised` plus a border to stay visible
 at all. Every dark token was re-checked on the surface it actually sits on:
 text 17.7:1, secondary 8.0:1, tertiary 5.2:1, accent 5.9:1, danger 5.2:1, all pass.
-Run `node scratchpad/validate-dark.mjs`.
+Run `node tools/validate-dark.mjs`.
 
 **Colour is measured, not picked.** The palette is Hologram's — navy chrome, white
 working area, lime signal, blue action — but every value was checked before it went
@@ -231,7 +231,7 @@ reading as a signal, so it marks one thing per screen.
 a distinct working surface without a border being drawn around it. This mirrors the
 sidebar-and-canvas split in Hologram's platform.
 
-The colour maths lives in `scratchpad/color.mjs` — rerun it before changing a token.
+The colour maths lives in `tools/color.mjs` — rerun it before changing a token.
 
 **Navigator headers are off app-wide.** Each screen renders its own title inside the
 shared width container. A full-bleed header over a width-capped body is what pushed
