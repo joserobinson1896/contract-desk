@@ -1,5 +1,34 @@
 {
   "enabledPlugins": {
     "expo@claude-plugins-official": true
+  },
+  "permissions": {
+    "allow": [
+      "Edit(**)",
+      "Write(**)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx tsc --noEmit *)",
+      "Bash(npx expo lint)",
+      "Bash(npx expo lint *)",
+      "Bash(CI=1 npx expo lint)",
+      "Bash(CI=1 npx expo lint *)",
+      "Bash(npx expo-doctor)",
+      "Bash(npx expo-doctor@latest)",
+      "Bash(npx expo config *)",
+      "Bash(npx expo install *)",
+      "Bash(npx jest *)",
+      "Bash(npx vitest *)",
+      "Bash(npm install)",
+      "Bash(npm install *)",
+      "Bash(npm test)",
+      "Bash(npm test *)",
+      "Bash(npm run test *)",
+      "Bash(npm ls *)",
+      "Bash(npm audit)",
+      "Bash(npm audit --json)",
+      "Bash(npm view *)",
+      "Bash(mkdir -p *)",
+      "Bash(node --test *)"
+    ]
   }
 }
